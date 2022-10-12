@@ -1,6 +1,6 @@
 name: Maven CI/CD
 
-on:
+on: build_and_test
  push:
     branches: [ master ]
   pull_request:
